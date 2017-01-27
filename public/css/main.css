@@ -8,8 +8,8 @@ body {
 }
 
 .box-sm {
-  height: 100px;
-  width: 200px;
+  height: 140px;
+    width: 325px;
 }
 
 .box-md {
@@ -20,6 +20,7 @@ body {
 .box-lg{
   height: 300px;
   width: 90%;
+  max-height: 600px;
 }
 
 .border{
@@ -29,6 +30,8 @@ body {
 #yellow {
   background-color: yellow;
   margin-left: 5%;
+  width: 30%;
+    position: absolute;
 }
 
 #red {
@@ -39,7 +42,14 @@ body {
 }
 
 #blue{
-  background-color: blue;
-  margin: auto;
+  background-color: turquoise;
+  margin: 20px 10px 10px 38px;
 
+}
+
+.parent {
+  max-width: 1600px;
+  width:100%;
+  display: flex;
+  justify-content: center;
 }
